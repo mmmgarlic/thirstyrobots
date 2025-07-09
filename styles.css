@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://cdn.glitch.global/bcd14a2b-fffd-406f-8a0c-f0ccc8eaea6f/48fdfb2d8a6984b4258445d571fdb3d6.gif?v=1737041029952') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Times New Roman', serif;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  color: rgb(0 0 255);
+  font-size: 7rem;
+  margin-top: 2rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  text-shadow: 1.5px 1.5px 1.5px #0000FF;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.content {
+  text-align: center;
+  font-size: 1.5rem;
+  text-shadow: 0.5px 1px 2.8px rgba(0, 0, 0, 1);
+  transition: opacity 0.3s ease-in-out;
+  margin-top: -3rem;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2rem 0;
+  gap: 1.1em;
+}
+
+.project {
+  text-align: center;
+  margin: 0.7em 1rem;
+}
+
+.project img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.project-label {
+  font-family: 'Pinyon Script', cursive;
+  color: yellow;
+  font-size: 1.8rem;
+  margin-bottom: 2px;
+}
+
+.project p {
+  margin: 2px 0;
+}
+
+.content p {
+  max-width: 70vw;
+  margin: 0 auto;
+  color: yellow;
+}
+
+.credits {
+  font-size: 1rem;
+  line-height: 1.2;
+  display: block;
+  margin-top: 0.2rem;
+  color: yellow;
+  margin-bottom: -14px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 4.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.1rem;
+    padding: 0 2vw;
+    line-height: 1.01;
+    white-space: normal;
+    word-break: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .mobile-title-top {
+    display: block;
+    width: 100%;
+    line-height: 1.01;
+    margin-bottom: 0.05em;
+  }
+  .mobile-title-bottom {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    line-height: 1.01;
+  }
+  .intro-text {
+    font-size: 1rem;
+    margin: 1em 2vw 1.5em 2vw;
+    color: #ffe066;
+  }
+  .content {
+    font-size: 0.97rem !important;
+    margin: 0.3em 3vw 1em 3vw;
+    line-height: 1.35;
+  }
+  .content p {
+    max-width: 96vw;
+    padding: 0 2vw;
+    font-size: 0.97em !important;
+  }
+  .image-row {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.4em;
+    padding: 0.7em 0;
+    width: 100vw;
+    margin: 0 auto 0.8em auto;
+  }
+  .project {
+    margin: 0.3em 0.4em;
+    width: 44vw;
+    max-width: 220px;
+    background: rgba(0,0,0,0.16);
+    border-radius: 10px;
+    padding-bottom: 0.7em;
+    box-shadow: 0 0 6px rgba(0,0,0,0.12);
+  }
+  .project img {
+    width: 90%;
+    max-width: 180px;
+    min-width: 60px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-top: 6px;
+    box-shadow: 0 0 4px rgba(255,255,255,0.25);
+  }
+  .project-label {
+    font-size: 1.08rem;
+    margin-bottom: 1px;
+    margin-top: 4px;
+  }
+  .credits {
+    font-size: 0.95rem;
+    margin-top: 0.2em;
+    margin-bottom: -5px;
+  }
+  .project p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-repeat: repeat !important;
+    background-position: center center !important;
+  }
+}
