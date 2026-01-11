@@ -182,3 +182,24 @@ h1 {
     background-position: center center !important;
   }
 }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-image: url("./thirsty%20robots%20tv.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  overflow-x: hidden;
+}
+
